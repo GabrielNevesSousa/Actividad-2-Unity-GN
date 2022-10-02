@@ -353,7 +353,10 @@
 "Assets/CubePeopleDemo/Scripts/CubePeopleTraffic.cs"
 "Assets/CubePeopleDemo/Scripts/EightDirectionMovement.cs"
 "Assets/CubePeopleDemo/Scripts/FollowTarget.cs"
-"Assets/Scripts/Colores.cs"
+"Assets/Scripts/ColorPersonaje1.cs"
+"Assets/Scripts/ColorPersonaje2.cs"
+"Assets/Scripts/ColorPersonaje3.cs"
+"Assets/Scripts/ColorPersonaje4.cs"
 "Assets/Scripts/MovedorControl.cs"
 -langversion:9.0
 

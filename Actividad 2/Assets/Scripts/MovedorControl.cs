@@ -5,7 +5,7 @@ using UnityEngine;
 public class MovedorControl : MonoBehaviour
 {
     public Transform[] personajes;
-   
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -14,9 +14,14 @@ public class MovedorControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.Alpha1))
+
+        for (int a = 0; a < personajes.Length; a++) { 
+        if(personajes[0].Equals(Input.GetKey(KeyCode.Alpha1)))
         {
+           
+            }
             
         }
+
     }
 }
