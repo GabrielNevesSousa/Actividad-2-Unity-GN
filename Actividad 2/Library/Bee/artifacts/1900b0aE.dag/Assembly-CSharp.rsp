@@ -353,6 +353,8 @@
 "Assets/CubePeopleDemo/Scripts/CubePeopleTraffic.cs"
 "Assets/CubePeopleDemo/Scripts/EightDirectionMovement.cs"
 "Assets/CubePeopleDemo/Scripts/FollowTarget.cs"
+"Assets/Scripts/Colores.cs"
+"Assets/Scripts/MovedorControl.cs"
 -langversion:9.0
 
 /deterministic
