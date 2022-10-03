@@ -5,8 +5,7 @@ using UnityEngine;
 public class MovedorControl : MonoBehaviour
 {
     public Transform[] personajes;
-    public MeshRenderer meshRenderer;
-    public Color color;
+    
     int eleccion = -1;
     // Start is called before the first frame update
     void Start()
@@ -25,7 +24,9 @@ public class MovedorControl : MonoBehaviour
         else if (Input.GetKey(KeyCode.Alpha2))
         {
             eleccion = 1;
+
         }else if (Input.GetKey(KeyCode.Alpha3)){
+
             eleccion = 2;
         }
         else if (Input.GetKey(KeyCode.Alpha4)){
@@ -57,7 +58,7 @@ public class MovedorControl : MonoBehaviour
         {
             foreach (Transform obj in personajes)
             {
-                obj.transform.position = new Vector3(0, 0, 0);
+                obj.transform.position = new Vector3(0,0,0);
             }
         }
 
