@@ -20,5 +20,8 @@ public class ColorPersonaje1 : MonoBehaviour
         {
             meshRenderer.material.color = color;
         }
+        else if(Input.GetKey(KeyCode.Alpha2) || Input.GetKey(KeyCode.Alpha3) || Input.GetKey(KeyCode.Alpha4))
+
+            meshRenderer.material.color = Color.white;
     }
 }
