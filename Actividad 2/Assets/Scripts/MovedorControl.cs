@@ -53,6 +53,14 @@ public class MovedorControl : MonoBehaviour
             personajes[eleccion].position += Vector3.up;
         }
 
+        if (Input.GetKey(KeyCode.Space))
+        {
+            foreach (Transform obj in personajes)
+            {
+                obj.transform.position = new Vector3(0, 0, 0);
+            }
+        }
+
 
     }
 
